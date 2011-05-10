@@ -1,16 +1,20 @@
 import subprocess
 
+REPOSITORY_COUNT = 10
+
 names = (
 	'_proto3',
-	'proxy',
-	'miarka',
-	'ip',
-	'Kalkulator',
+	'binary_keyboard',
 	'comp',
 	'formula_finder',
-	'binary_keyboard',
+	'ip',
+	'miarka',
 	'mki2',
+	'proxy',
+	'system_stuff',
+	'Kalkulator',
 )
+assert len(names) == REPOSITORY_COUNT
 
 def get_addr_from_name(name):
 	return "git://github.com/marekw2143/%s.git" % name
