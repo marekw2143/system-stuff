@@ -2,3 +2,7 @@
 
 # remove all .svn directories from given directory and subdirectories:
 find . -name ".svn" -exec rm -rf {} \;
+find . -name .svn -print0 | xargs -0 rm -rf
+
+# remove all files except those whose path matches *svn*
+find . \! \( -path '*svn*' \) -type f -exec rm {} \;
