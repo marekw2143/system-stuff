@@ -1,0 +1,4 @@
+# collection of usefull bash commands
+
+# remove all .svn directories from given directory and subdirectories:
+find . -name ".svn" -exec rm -rf {} \;
