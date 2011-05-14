@@ -1,6 +1,6 @@
 import subprocess
 
-REPOSITORY_COUNT = 11
+REPOSITORY_COUNT = 12
 
 names = (
 	'_proto3',
@@ -8,6 +8,7 @@ names = (
 	'comp',
 	'formula_finder',
 	'ip',
+    'json_deser',
 	'miarka',
 	'mki2',
 	'proxy',
