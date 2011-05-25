@@ -1,11 +1,12 @@
 import subprocess
 
-REPOSITORY_COUNT = 12
+REPOSITORY_COUNT = 13
 
 names = (
     '_proto3',
     'binary_keyboard',
     'comp',
+    'django-starter',
     'formula_finder',
     'ip',
     'json_deser',
